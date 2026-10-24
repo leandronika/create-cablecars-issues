@@ -1,7 +1,8 @@
-name: Bug Report
-description: Report a bug in Create: Cablecars
+name: "Bug Report"
+description: "Report a bug in Create: Cablecars"
 title: "[Bug]: "
-labels: ["bug"]
+labels:
+  - bug
 body:
   - type: markdown
     attributes:
