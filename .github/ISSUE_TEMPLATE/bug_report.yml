@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a bug in Create: Cablecars
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please provide as much detail as possible.
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod Version
+      description: Which version of Create: Cablecars are you using?
+      placeholder: "e.g. 1.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      placeholder: "e.g. 1.21.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: What happened?
+      placeholder: Describe the bug here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the bug?
+      placeholder: |
+        1. Build ...
+        2. Start ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Screenshots
+      description: Add relevant logs or screenshots if available.
+      placeholder: Paste logs or describe attached screenshots.
+    validations:
+      required: false
