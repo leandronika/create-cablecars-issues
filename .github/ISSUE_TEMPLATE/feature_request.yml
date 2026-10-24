@@ -1,0 +1,45 @@
+name: "Feature Request"
+description: "Suggest a new feature for Create: Cablecars"
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: "Have an idea to improve Create: Cablecars? Describe it below!"
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Is your feature request related to a problem?"
+      description: "Describe the problem or limitation your idea would solve."
+      placeholder: "I find it difficult to..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Describe your idea"
+      description: "Explain the feature you would like to see."
+      placeholder: "I would like to see..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternative solutions"
+      description: "Have you considered any alternatives?"
+      placeholder: "Other ideas you have considered..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional context"
+      description: "Add screenshots, examples, or other details."
+      placeholder: "Additional information..."
+    validations:
+      required: false
